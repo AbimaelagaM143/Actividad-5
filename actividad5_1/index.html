@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Etiquetas</title>
+</head>
+
+<body>
+  <h1>Funcionamiento de las etiquetas HTML</h1>
+  <div>
+    <ul>
+      <li>
+        <h2>&lt;dl &gt;</h2>
+        <p>Representa una lista descriptiva, y esta se utiliza para representar la lista de descripción.</p>
+      <li>
+        <h2>&lt;dt &gt;</h2>
+      </li>
+      <p>Especifica un término en una descripción o lista de definiciones.</p>
+      <li>
+        <h2>&lt;dd &gt;</h2>
+      </li>
+      <p>Provee detalles acerca de o la definición de un término precedente en una lista de descripciones.</p>
+      <h2>Ejemplo:</h2>
+
+      <p>&lt;dl&gt;<br>
+        &lt;dt&gt;¿Que abra mas alla del imenzo mar? &lt;/dt&gt; <br>
+        &lt;dd>Seguramente abra un imenzo vacio&lt;/dd&gt;<br>
+        &lt;/dl&gt;</p>
+
+      <dl>
+        <dt>¿Que abra mas alla del imenzo mar? </dt>
+        <dd>Seguramente abra un imenzo vacio</dd>
+      </dl>
+      </li>
+      <li>
+        <h2>&lt; blockquote &gt;</h2>
+        <p>Se utiliza para mostrar las citas largas</p>
+        <h2>Ejemplo:</h2>
+
+        &lt;blockquote&gt; cite="https://www.netflix.com/mx/title/60000171?source=35"><br>
+        &lt;p&gt;Dos pícaros españoles se topan con un mapa del tesoro de El Dorado y se embarcan como polizones en un barco. Cuando encuentra la ciudad, el sacerdote principal los proclama dioses dentro de un elaborado plan para tomar el control de
+        la ciudad.&lt;/p&gt; <br>
+        &lt;/blockquote&gt;
+
+        <blockquote cite="https://www.netflix.com/mx/title/60000171?source=35">
+          <p>Dos pícaros españoles se topan con un mapa del tesoro de El Dorado y se embarcan como polizones en un barco. Cuando encuentra la ciudad, el sacerdote principal los proclama dioses dentro de un elaborado plan para tomar el control de la
+            ciudad.</p>
+        </blockquote>
+      <li>
+        <h2>&lt; Q &gt;</h2>
+        <p>Define una cita corta</p>
+        <h2>Ejemplo:</h2>
+
+        &lt;p&lt;q&gt;En el siglo XVI, dos estafadores españoles ganan un mapa hacia la legendaria ciudad del oro&lt;/q&gt;<br>
+        Pero, al llegar a El Dorado, las cosas no suceden de acuerdo con el plan.
+        &lt;/p&gt;
+
+        <p><q>En el siglo XVI, dos estafadores españoles ganan un mapa hacia la legendaria ciudad del oro</q><br>
+          Pero, al llegar a El Dorado, las cosas no suceden de acuerdo con el plan.
+        </p>
+      <li>
+        <h2>&lt; cite &gt;</h2>
+        <p>Define el titulo de una obra</p>
+        <h2>Ejemplo:</h2>
+        &lt;cite&gt;Ejemplo de una etiqueta cite &lt;/cite&gt;<br>
+        <cite>Ejemplo de una etiqueta cite </cite>
+
+      <li>
+        <h2>&lt; abbr &gt;</h2>
+        <p>Define la abreviatura o forma corta de un elemento.</p>
+        <h2>Ejemplo:</h2>
+        &lt;abbr&gt; title="El camino al dorado"&gt;ECAD&lt;/abbr&gt;<br>
+        <abbr title="El camino al dorado">ECAD</abbr>
+
+      <li>
+        <h2>&lt; address &gt;</h2>
+        <p>Indica la información de contacto de una persona o una organización.</p>
+        <h2>Ejemplo:</h2>
+
+        &lt;address&gt;
+        Inttitucion: UPIIT <br>
+        Pagina web: &lt;a&gt; href="https://www.upiit.ipn.mx/">UPIIT&lt;/a&gt;<br>
+        direccion: <br>
+        Guillermo Valle 11, Centro, 90000 Tlaxcala de Xicohténcatl, Tlax.
+        &lt;/address&gt;<br><br>
+
+        <address>
+          Inttitucion: UPIIT <br>
+          Pagina web: <a href="https://www.upiit.ipn.mx/">UPIIT</a><br>
+          direccion: <br>
+          Guillermo Valle 11, Centro, 90000 Tlaxcala de Xicohténcatl, Tlax.
+        </address>
+
+      <li>
+        <h2>&lt; sub &gt;</h2>
+        <p>Sirve para agregar un texto de subíndice al documento HTML.</p>
+      <li>
+        <h2>&lt; sup &gt;</h2>
+        <p>Sirve para definir el texto del superíndice.</p>
+        <h2>Ejemplo:</h2>
+        &lt;p&gt;Prueba &lt;sub&gt;Subindice &lt;/sub&gt; &lt;/p&gt;
+        <p>Prueba <sub>Subindice</sub></p>
+        &lt;p&gt;Prueba &lt;sup&gt;Superindice &lt;/sup&gt; &lt;/p&gt;
+        <p>Prueba<sup>superíndice</sup></p>
+
+      <li>
+        <h2>&lt; code &gt;</h2>
+        <p>se ocupa para definir el fragmento del código informático. </p>
+        <h2>Ejemplo:</h2>
+
+        &lt; code &gt; <br>
+        #include &lt; stdio.h &gt; <br>
+        int main() { <br>
+        printf("Hola mundo");<br>
+        } <br>
+        &lt; /code &gt;
+        <pre>
+<code>
+  #include<stdio.h>
+  int main() {
+      printf("Hola mundo");
+  }
+</code>
+</pre>
+
+      <li>
+        <h2>&lt; pre &gt;</h2>
+        <p>se ocupa para definir el bloque de texto preformateado.</p>
+        <h2>Ejemplo:</h2>
+
+        &lt; pre &gt;
+        El camino hacia El Dorado <br>
+        Dos pícaros españoles se topan con un mapa del tesoro.
+        &lt; /pre &gt;
+
+        <pre>
+El camino hacia El Dorado <br>
+Dos pícaros españoles se topan con un mapa del tesoro.
+</pre>
+
+      <li>
+        <h2>&lt; var &gt;</h2>
+        <p>Es una etiqueta de frase y esta se utiliza para especificar la variable en una ecuación matemática.</p>
+        <h2>Ejemplo:</h2>
+
+        &lt; var &gt; Ejemplo de variable 2+2 &lt; /var &gt; <br>
+        <var>Ejemplo de variable 2+2 </var>
+
+      <li>
+        <h2>&lt; kbd &gt;</h2>
+        <p>Es una etiqueta de frase y esta se utiliza para definir la entrada del teclado.</p>
+        <h2>Ejemplo:</h2>
+
+        &lt; p> <br>
+        Comando para pegar un <br>
+        &lt; kbd &gt; Ctrl &lt; /kbd &gt; + &lt; kbd &gt; C &lt; /kbd &gt; <br>
+        &lt; /p &gt; <br>
+
+        <p>
+          Comando para pegar un texto
+          <kbd>Ctrl</kbd> + <kbd>C</kbd>
+        </p>
+
+      <li>
+        <h2>&lt; samp &gt;</h2>
+        <p>Es una etiqueta de frase y se utiliza para definir el texto de salida.</p>
+        <h2>Ejemplo:</h2>
+
+        &lt; samp &gt; Ejemplo de la etiqueta samp &lt;/samp &gt; <br>
+        <samp>Ejemplo de la etiqueta samp</samp>
+
+      <li>
+        <h2>&lt; time &gt;</h2>
+        <p>Se utiliza para mostrar la fecha/hora legible por humanos.</p>
+        <h2>Ejemplo:</h2>
+        &lt; p &gt; Abrimos todos los dias de las &lt; time &gt; 11:00 &lt; /time &gt; a las &lt; time &gt; 19:00 &lt; /time &gt; todos los dias &lt; /p &gt;
+        <p>Abrimos todos los dias de las <time> 11:00 </time>a las <time>19:00 </time> todos los dias</p>
+
+
+</html>
